@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Quản lý món ăn BIT240074</string>
+
+    <!-- Nút bấm & Thao tác -->
+    <string name="btn_save">Lưu món ăn</string>
+    <string name="btn_edit">Chỉnh sửa</string>
+    <string name="btn_delete">Xóa món</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_add">Thêm món</string>
+
+    <!-- Trường thông tin & Trạng thái món -->
+    <string name="dish_name">Tên món ăn</string>
+    <string name="dish_price">Giá món ăn</string>
+    <string name="prep_time">Thời gian chế biến</string>
+    <string name="prep_quick">Quick / Nhanh</string>
+    <string name="prep_regular">Regular / Thông thường</string>
+    <string name="prep_time_format">Thời gian chế biến: %1$d phút (%2$s)</string>
+    <string name="dish_status">Trạng thái</string>
+    <string name="status_available">Đang bán</string>
+    <string name="status_unavailable">Ngừng bán</string>
+    <string name="status_format">Trạng thái: %1$s</string>
+    <string name="dish_category">Loại món</string>
+    <string name="category_format">Loại món: %1$s</string>
+    <string name="category_all">Tất cả loại</string>
+    <string name="dish_description">Mô tả món ăn</string>
+    <string name="dish_images">Hình ảnh món ăn:</string>
+    <string name="no_description">Không có mô tả.</string>
+
+    <!-- Bộ lọc & Sắp xếp -->
+    <string name="search_hint">Tìm kiếm theo tên món ăn...</string>
+    <string name="filter_category">Loại:</string>
+    <string name="sort_label">Xếp:</string>
+    <string name="sort_default">Mặc định</string>
+    <string name="sort_price_asc">Giá: Tăng dần</string>
+    <string name="sort_price_desc">Giá: Giảm dần</string>
+    <string name="sort_prep_asc">Thời gian chế biến: Tăng dần</string>
+    <string name="price_from">Giá từ</string>
+    <string name="price_to">Giá đến</string>
+    <string name="available_only">Đang bán</string>
+
+    <!-- Form Thêm / Sửa -->
+    <string name="title_add_dish">Thêm món ăn mới</string>
+    <string name="title_edit_dish">Chỉnh sửa món ăn</string>
+    <string name="hint_dish_name">Tên món ăn (*)</string>
+    <string name="hint_category">Loại món ăn (*):</string>
+    <string name="hint_select_category">--- Chọn loại món ---</string>
+    <string name="hint_price">Giá món ăn (VNĐ) (*)</string>
+    <string name="hint_prep_time">Thời gian chế biến (phút) (*)</string>
+    <string name="hint_image_url">Đường dẫn URL hình ảnh</string>
+    <string name="checkbox_available">Đang kinh doanh / Mở bán</string>
+
+    <!-- Thông báo lỗi Validation -->
+    <string name="err_name_empty">Tên món ăn không được để trống</string>
+    <string name="err_category_invalid">Vui lòng chọn loại món ăn hợp lệ!</string>
+    <string name="err_name_duplicate">Tên món đã tồn tại trong loại món này!</string>
+    <string name="err_price_invalid">Giá món ăn phải lớn hơn 0</string>
+    <string name="err_prep_time_invalid">Thời gian chế biến phải lớn hơn 0</string>
+
+    <!-- Tiêu đề & Dialog -->
+    <string name="title_detail">Chi tiết món ăn</string>
+    <string name="confirm_delete_title">Xác nhận xóa món</string>
+    <string name="confirm_delete_msg">Bạn có chắc chắn muốn xóa món \'%1$s\' không?</string>
+    <string name="msg_delete_success">Xóa món ăn thành công!</string>
+    <string name="msg_save_success">Lưu món ăn thành công!</string>
+    <string name="msg_not_found">Không tìm thấy thông tin món ăn!</string>
+
+    <!-- Đổi ngôn ngữ -->
+    <string name="change_language">Ngôn ngữ</string>
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+</resources>

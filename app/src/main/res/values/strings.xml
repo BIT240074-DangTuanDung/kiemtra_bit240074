@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Dish Manager BIT240074</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_save">Save Dish</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_add">Add Dish</string>
+
+    <!-- Dish Fields & Status -->
+    <string name="dish_name">Dish Name</string>
+    <string name="dish_price">Price</string>
+    <string name="prep_time">Prep Time</string>
+    <string name="prep_quick">Quick / Nhanh</string>
+    <string name="prep_regular">Regular / Normal</string>
+    <string name="prep_time_format">Prep time: %1$d mins (%2$s)</string>
+    <string name="dish_status">Status</string>
+    <string name="status_available">Available</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="status_format">Status: %1$s</string>
+    <string name="dish_category">Category</string>
+    <string name="category_format">Category: %1$s</string>
+    <string name="category_all">All Categories</string>
+    <string name="dish_description">Description</string>
+    <string name="dish_images">Dish Images:</string>
+    <string name="no_description">No description provided.</string>
+
+    <!-- Filter & Sort -->
+    <string name="search_hint">Search dish by name...</string>
+    <string name="filter_category">Category:</string>
+    <string name="sort_label">Sort:</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_price_asc">Price: Low to High</string>
+    <string name="sort_price_desc">Price: High to Low</string>
+    <string name="sort_prep_asc">Prep Time: Low to High</string>
+    <string name="price_from">Price From</string>
+    <string name="price_to">Price To</string>
+    <string name="available_only">Available Only</string>
+
+    <!-- Add/Edit Form -->
+    <string name="title_add_dish">Add New Dish</string>
+    <string name="title_edit_dish">Edit Dish</string>
+    <string name="hint_dish_name">Dish Name (*)</string>
+    <string name="hint_category">Category (*):</string>
+    <string name="hint_select_category">--- Select Category ---</string>
+    <string name="hint_price">Price (VND) (*)</string>
+    <string name="hint_prep_time">Prep Time (mins) (*)</string>
+    <string name="hint_image_url">Image URL</string>
+    <string name="checkbox_available">On Sale / Available</string>
+
+    <!-- Error Messages -->
+    <string name="err_name_empty">Dish name cannot be empty</string>
+    <string name="err_category_invalid">Please select a valid category!</string>
+    <string name="err_name_duplicate">Dish name already exists in this category!</string>
+    <string name="err_price_invalid">Price must be greater than 0</string>
+    <string name="err_prep_time_invalid">Preparation time must be greater than 0</string>
+
+    <!-- Titles & Dialogs -->
+    <string name="title_detail">Dish Details</string>
+    <string name="confirm_delete_title">Confirm Delete</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete \'%1$s\'?</string>
+    <string name="msg_delete_success">Dish deleted successfully!</string>
+    <string name="msg_save_success">Dish saved successfully!</string>
+    <string name="msg_not_found">Dish not found!</string>
+
+    <!-- Language Switcher -->
+    <string name="change_language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+</resources>
